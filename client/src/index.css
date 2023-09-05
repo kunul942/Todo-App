@@ -1,0 +1,47 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.backgroundColor {
+    background-color: #130d17;
+    /* background-color: #120e14; */
+}
+
+.backgroundColorTodo {
+    background-color: #1e1724;
+    /* background-color: #1a141f; */
+}
+.backgroundColorTodo2 {
+    background-color: #241b2b;
+}
+
+.backgroundColorChat {
+    background-color: #42374b;
+}
+.backgroundColorChat2 {
+    background-color: #241b2b;
+}
+
+/* #162949 */
+
+.backgroundGenerator {
+    background: linear-gradient(#e66465, #9198e5);
+}
+
+.backgroundGenerator2 {
+    background: rgb(23, 23, 24);
+    background: linear-gradient(
+        45deg,
+        rgba(23, 23, 24, 1) 29%,
+        rgba(56, 55, 55, 1) 100%
+    );
+}
+
+.display_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
