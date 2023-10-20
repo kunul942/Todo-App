@@ -8,9 +8,7 @@ import { Todo } from '../../interfaces/interfaces';
 import checkTodo from '../../assets/todoChecked.png';
 import close from '../../assets/close.png';
 
-interface initialState {
-    desc: string;
-}
+
 
 const customStyles = {
     content: {

@@ -101,7 +101,7 @@ export const deleteFullChat = async (req: Request, res: Response)=>{
         ok: true,
         msg: 'Message deleted succesfully',
         chat
-    })
+    }) 
 
 }
 

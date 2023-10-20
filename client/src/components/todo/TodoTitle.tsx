@@ -1,5 +1,4 @@
 import { useAuthStore } from '../../hooks';
-import { User } from '../../interfaces/interfaces';
 
 export const TodoTitle = () => {
     const { user } = useAuthStore();
